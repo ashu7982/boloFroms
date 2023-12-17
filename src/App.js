@@ -1,15 +1,13 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import Login from './components/login'
+import Allroutes from './routes';
 
-import AddForm from './Pages/AddForm';
-import Preview from './Pages/Preview';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<AddForm/>}/>
-      <Route path='/View' element={<Preview/>}/>
-    </Routes>
+   
+  //  <Login/>
+   <Allroutes/>
   );
 }
 
